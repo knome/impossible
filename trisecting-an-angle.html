@@ -1,0 +1,222 @@
+<html>
+  <head>
+    <title>Trisecting Arbitrary Angles</title>
+    
+    <style>
+      /* neatly center the content */
+      /* at a reasonable width */
+      
+      .i {
+        width : 50em ;
+      }
+      
+      p {
+        width : 50em ;
+      }
+      
+      div.nice {
+        width : 55em ;
+        margin: auto auto ;
+        padding: 4pt ;
+        border: 3px grey solid ;
+      }
+      
+      div.author {
+        float: right ;
+      }
+      
+      /* don't if the view is too small */
+      
+      @media (max-width: 55em) {
+        .i { width : 100% ; }
+        p  { width : 100% ; }
+        div.nice { width : 100% ; }
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <div class=nice>
+    
+    <div class=author><i>author: michael speer</div>
+    
+    <h1>Trisecting Arbitrary Angles</h1>
+    
+    <p>
+      <i>
+        I don't use a rule and compass often, and it turns out what looked like a
+        ridged tightener on the top of the compass I bought was fake, much to my
+        annoyance. Please forgive minor drafting errors. I am trying to demonstrate
+        the technique, rather than my ability at it.
+      </i>
+    </p>
+    
+    <p>
+      I was watching a video<sup><a href="#ref1">[1]</a></sup> earlier today, that mentioned that not only was
+      it unknown how to trisect an arbitrary angle with only a rule and compass,
+      but that it was proven impossible in the mid-1800s.
+    </p>
+    
+    <p>
+      I thought this odd, as the same video demonstrated a technique that, so
+      far as I can tell, should be able to trisect an arbitrary angle with ease.
+    </p>
+    
+    <p>
+      This requires no measurements, and only the use of a straight edge and compass.
+    </p>
+    
+    <p>
+      Let us create an arbitrary angle to trisect.<br>
+      First an initial point.
+    </p>
+    
+    <a href=images/step-01.jpg>
+      <img class=i src=images/step-01s.jpg>
+    </a>
+    
+    <p>
+      And then two more points of varying distances from the original.<br>
+      <i>Please forgive the blurriness of a few of these images.</i>
+    </p>
+    
+    <a href=images/step-03.jpg>
+      <img class=i src=images/step-02s.jpg>
+    </a>
+    
+    <p>
+      Okay, now that we have our two lines, we set our compass to an arbitrary angle, and
+      walk each of the lines from the initial point, putting three marks on each.
+    </p>
+    
+    <p>
+      <a href=images/step-03.jpg>
+        Here is a link to the image for just that step, but it's the blurriest of them all.
+      </a><br>
+      Rather just see the marks in the next step.
+    </p>
+    
+    <p>
+      Next we draw a line between the third points of the two lines.
+    </p>
+    
+    <a href=images/step-04.jpg>
+      <img class=i src=images/step-04s.jpg>
+    </a>
+    
+    <p>
+      Now we need to create some parallel lines. To do this we set another
+      arbitrary angle on our compass, marking the original point, and the
+      first and second points on the top line.
+    </p>
+    
+    <a href=images/step-05.jpg>
+      <img class=i src=images/step-05s.jpg>
+    </a>
+    
+    <p>
+      Now we use our compass to take the distance of between the points where the 
+      circle segment by the original angle crosses. We use this setting to mark
+      the segments we drew after the first and second points to create the same
+      angle at each of them.
+    </p>
+    
+    <a href=images/step-06.jpg>
+      <img class=i src=images/step-06s.jpg>
+    </a>
+    
+    <p>
+      Now we draw parallel lines from the first and second point using these.
+    </p>
+    
+    <a href=images/step-07.jpg>
+      <img class=i src=images/step-07.jpg>
+    </a>
+    
+    <p>
+      Now we can draw lines from the origin through the points where the parallel
+      lines cross our line between the equidistance third points on the lines.
+    </p>
+    
+    <a href=images/step-08.jpg>
+      <img class=i src=images/step-08s.jpg>
+    </a>
+    
+    <p>
+      The angle should now be trisected.
+    </p>
+    
+    <p>
+      <ul>
+        <li>We create a line three times an arbitrary width on each original side.</li>
+        <li>This creates an isosceles triangle, with known thirds on a side.</li>
+        <li>
+          We then transfer these thirds to the unknown side via the parallel lines of the well known line trisection technique.
+          <sup><a href="#ref2">[2]</a></sup>
+        </li>
+        <li>Since we now know where points a third into that line are, we can draw lines from the original point through them.</li>
+        <li>This divides the original angle into three equal angles.</li>
+      </ul>
+    </p>
+    
+    <p>
+      Now let's build three congruent circles across the line
+    </p>
+    
+    <p>
+      We'll start by finding the midpoints between the two four points on the end line.<br>
+      First we use arcs to find points on the lines.
+    </p>
+    
+    <a href=images/step-09.jpg>
+      <img class=i src=images/step-09s.jpg>
+    </a>
+    
+    <p>
+      And then we can draw in the lines to find the midpoints on the end-line.<br>
+      <i>a little blurry again</i>
+    </p>
+    
+    <a href=images/step-10.jpg>
+      <img class=i src=images/step-10s.jpg>
+    </a>
+    
+    <p>
+      Now I draw a circle from the middle point, to show the other two points are equidistant from it.
+    </p>
+    
+    <a href=images/step-11.jpg>
+      <img class=i src=images/step-11s.jpg>
+    </a>
+    
+    <p>
+      Now I set the compass to the radius from one side to the first dot, and use it to draw three congruent circles that kiss at their edges.
+    </p>
+    
+    <p>
+      They are admittedly imperfect, but this should be due moreso to the wobble of my hand than the method of their construction.
+    </p>
+    
+    <a href=images/step-12.jpg>
+      <img class=i src=images/step-12s.jpg>
+    </a>
+    
+    <p>
+      I look forward to finding out why this won't work :)
+    </p>
+    
+    <p>
+      It looks to me like it should, though. It appears it could be extended to arbitrarily dividing the original angle
+      since you can use an arbitrary number of points and therefore parallel lines in the construction.
+    </p>
+    
+    <p>
+      references:<br>
+      
+      <a name=ref1>[1]</a> : <a href=https://www.youtube.com/watch?v=6Lm9EHhbJAY>Euclid's Big Problem - Numberphile</a><br>
+      <a name=ref2>[2]</a> : <a href=http://jwilson.coe.uga.edu/emt668/EMAT6680.2000/Lehman/emat6690/trisecttri's/triseg.html>How to trisect a segment</a>
+    </div>
+    
+  </body>
+</html>
